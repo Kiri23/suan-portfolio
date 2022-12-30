@@ -31,7 +31,8 @@
     "slick-carousel": "^1.8.1",
     "swiper": "^8.4.4",
     "tsparticles": "^2.3.4",
-    "typewriter-effect": "^2.19.0"
+    "typewriter-effect": "^2.19.0",
+    "deepmerge": "^4.2.2"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
