@@ -17,6 +17,7 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   pathPrefix: "/Gastby-airtable-getting-started",
+  trailingSlash: "always",
   plugins: [
     `gatsby-plugin-image`,
     {
@@ -54,5 +55,7 @@ module.exports = {
         ]
       },
     },
+    'gatsby-plugin-resolve-src',
+    'gatsby-plugin-eslint',
   ],
 }
